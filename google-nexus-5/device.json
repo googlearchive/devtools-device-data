@@ -1,0 +1,92 @@
+{
+  "title": "Google Nexus 5",
+  "type": "phone",
+
+  "screen": {
+    "width": 360,
+    "height": 640,
+    "devicePixelRatio": 3
+  },
+  "touch": true,
+  "mobile": true,
+  "user-agent": "Mozilla/5.0 (Linux; Android 4.4.4; Nexus 5 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Mobile Safari/537.36",
+
+  "outline": {
+    "images": [
+      {
+        "file": "outline.png",
+        "scale": 1
+      },
+      {
+        "file": "outline2x.png",
+        "scale": 2
+      }
+    ],
+    "screen-rect": {
+      "left": 20,
+      "top": 86,
+      "width": 360,
+      "height": 640
+    }
+  },
+
+  "modes": [
+    {
+      "title": "With navigation bar",
+      "images": [
+        {
+          "file": "navigation.png",
+          "scale": 1
+        },
+        {
+          "file": "navigation2x.png",
+          "scale": 2
+        }
+      ],
+      "page-rect": {
+        "left": 0,
+        "top": 80,
+        "width": 360,
+        "height": 512
+      }
+    },
+    {
+      "title": "Without navigation bar",
+      "images": [
+        {
+          "file": "clear.png",
+          "scale": 1
+        },
+        {
+          "file": "clear2x.png",
+          "scale": 2
+        }
+      ],
+      "page-rect": {
+        "left": 0,
+        "top": 25,
+        "width": 360,
+        "height": 567
+      }
+    },
+    {
+      "title": "With keyboard",
+      "images": [
+        {
+          "file": "keyboard.png",
+          "scale": 1
+        },
+        {
+          "file": "keyboard2x.png",
+          "scale": 2
+        }
+      ],
+      "page-rect": {
+        "left": 0,
+        "top": 80,
+        "width": 360,
+        "height": 248
+      }
+    }
+  ]
+}
