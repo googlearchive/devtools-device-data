@@ -134,7 +134,7 @@
     },
     {
       "title": "Without navigation bar",
-      "orientation": "vertical",
+      "orientation": "horizontal",
       "images": [
         {
           "src": "clear-h-1x.png",
@@ -154,7 +154,7 @@
     },
     {
       "title": "With keyboard",
-      "orientation": "vertical",
+      "orientation": "horizontal",
       "images": [
         {
           "src": "keyboard-h-1x.png",
