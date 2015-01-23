@@ -1,45 +1,67 @@
 {
   "title": "Google Nexus 5",
   "type": "phone",
+  "user-agent": "Mozilla/5.0 (Linux; Android 4.4.4; Nexus 5 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Mobile Safari/537.36",
+  "capabilities": [
+    "touch",
+    "mobile"
+  ],
 
   "screen": {
-    "width": 360,
-    "height": 640,
-    "devicePixelRatio": 3
-  },
-  "touch": true,
-  "mobile": true,
-  "user-agent": "Mozilla/5.0 (Linux; Android 4.4.4; Nexus 5 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Mobile Safari/537.36",
-
-  "outline": {
-    "images": [
-      {
-        "file": "outline.png",
-        "scale": 1
-      },
-      {
-        "file": "outline2x.png",
-        "scale": 2
-      }
-    ],
-    "screen-rect": {
-      "left": 20,
-      "top": 86,
+    "device-pixel-ratio": 3,
+    "vertical": {
       "width": 360,
-      "height": 640
+      "height": 640,
+      "outline": {
+        "images": [
+          {
+            "src": "outline-v-1x.png",
+            "scale": 1
+          },
+          {
+            "src": "outline-v-2x.png",
+            "scale": 2
+          }
+        ],
+        "insets": {
+          "left": 20,
+          "top": 86
+        }
+      }
+    },
+    "horizontal": {
+      "width": 640,
+      "height": 360,
+      "outline": {
+        "images": [
+          {
+            "src": "outline-h-1x.png",
+            "scale": 1
+          },
+          {
+            "src": "outline-h-2x.png",
+            "scale": 2
+          }
+        ],
+        "insets": {
+          "left": 86,
+          "top": 20
+        }
+      }
     }
   },
 
   "modes": [
     {
       "title": "With navigation bar",
+      "orientation": "vertical",
       "images": [
         {
-          "file": "navigation.png",
+          "src": "navigation-v-1x.png",
           "scale": 1
         },
         {
-          "file": "navigation2x.png",
+          "src": "navigation-v-2x.png",
           "scale": 2
         }
       ],
@@ -52,13 +74,14 @@
     },
     {
       "title": "Without navigation bar",
+      "orientation": "vertical",
       "images": [
         {
-          "file": "clear.png",
+          "src": "clear-v-1x.png",
           "scale": 1
         },
         {
-          "file": "clear2x.png",
+          "src": "clear-v-2x.png",
           "scale": 2
         }
       ],
@@ -71,13 +94,14 @@
     },
     {
       "title": "With keyboard",
+      "orientation": "vertical",
       "images": [
         {
-          "file": "keyboard.png",
+          "src": "keyboard-v-1x.png",
           "scale": 1
         },
         {
-          "file": "keyboard2x.png",
+          "src": "keyboard-v-2x.png",
           "scale": 2
         }
       ],
@@ -86,6 +110,66 @@
         "top": 80,
         "width": 360,
         "height": 248
+      }
+    },
+    {
+      "title": "With navigation bar",
+      "orientation": "horizontal",
+      "images": [
+        {
+          "src": "navigation-h-1x.png",
+          "scale": 1
+        },
+        {
+          "src": "navigation-h-2x.png",
+          "scale": 2
+        }
+      ],
+      "page-rect": {
+        "left": 0,
+        "top": 80,
+        "width": 598,
+        "height": 280
+      }
+    },
+    {
+      "title": "Without navigation bar",
+      "orientation": "vertical",
+      "images": [
+        {
+          "src": "clear-h-1x.png",
+          "scale": 1
+        },
+        {
+          "src": "clear-h-2x.png",
+          "scale": 2
+        }
+      ],
+      "page-rect": {
+        "left": 0,
+        "top": 25,
+        "width": 598,
+        "height": 335
+      }
+    },
+    {
+      "title": "With keyboard",
+      "orientation": "vertical",
+      "images": [
+        {
+          "src": "keyboard-h-1x.png",
+          "scale": 1
+        },
+        {
+          "src": "keyboard-h-2x.png",
+          "scale": 2
+        }
+      ],
+      "page-rect": {
+        "left": 0,
+        "top": 80,
+        "width": 598,
+        "height": 78
       }
     }
   ]

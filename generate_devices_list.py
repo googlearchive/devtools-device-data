@@ -19,17 +19,25 @@ def load_and_parse_json(file_name):
 
 def rebase_images(json, rebase_path):
   for entry in json:
-    if entry["file"]:
-      entry["file"] = os.path.join(rebase_path, entry["file"])
+    if "src" in entry:
+      entry["src"] = os.path.join(rebase_path, entry["src"])
 
 def read_device_json(file_name, rebase_path):
   json = load_and_parse_json(file_name)
-  if json["outline"] and json["outline"]["images"]:
-    rebase_images(json["outline"]["images"], rebase_path)
+  if "screen" in json:
+    screen = json["screen"]
+    if ("vertical" in screen) and ("outline" in screen["vertical"]):
+      v_outline = screen["vertical"]["outline"]
+      if "images" in v_outline:
+        rebase_images(v_outline["images"], rebase_path)
+    if ("horizontal" in screen) and ("outline" in screen["horizontal"]):
+      h_outline = screen["horizontal"]["outline"]
+      if "images" in h_outline:
+        rebase_images(h_outline["images"], rebase_path)
 
-  if json["modes"]:
+  if "modes" in json:
     for mode_json in json["modes"]:
-      if mode_json["images"]:
+      if "images" in mode_json:
         rebase_images(mode_json["images"], rebase_path)
 
   return json
