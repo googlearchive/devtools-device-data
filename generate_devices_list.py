@@ -53,7 +53,7 @@ def main(argv):
       devices_json.append(read_device_json(device_file_name, file_name))
 
   result_json = {}
-  result_json["version"] = "1.0"
+  result_json["version"] = 1
   result_json["devices"] = devices_json
 
   list_file_name = os.path.join(root_path, "devices.json")

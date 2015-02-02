@@ -6,6 +6,7 @@
     "touch",
     "mobile"
   ],
+  "show-by-default": true,
 
   "screen": {
     "device-pixel-ratio": 3,
