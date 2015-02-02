@@ -1,0 +1,22 @@
+{
+  "show-by-default": false, 
+  "modes": [], 
+  "title": "Amazon Kindle Fire First Generation", 
+  "screen": {
+    "horizontal": {
+      "width": 600, 
+      "height": 1024
+    }, 
+    "device-pixel-ratio": 1, 
+    "vertical": {
+      "width": 1024, 
+      "height": 600
+    }
+  }, 
+  "capabilities": [
+    "touch", 
+    "mobile"
+  ], 
+  "user-agent": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us; Silk/1.0.141.16-Gen4_11004310) AppleWebkit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16 Silk-Accelerated=true", 
+  "type": "tablet"
+}

@@ -1,0 +1,22 @@
+{
+  "show-by-default": false, 
+  "modes": [], 
+  "title": "Google Nexus 7", 
+  "screen": {
+    "horizontal": {
+      "width": 604, 
+      "height": 966
+    }, 
+    "device-pixel-ratio": 1.325, 
+    "vertical": {
+      "width": 966, 
+      "height": 604
+    }
+  }, 
+  "capabilities": [
+    "touch", 
+    "mobile"
+  ], 
+  "user-agent": "Mozilla/5.0 (Linux; Android 4.3; Nexus 7 Build/JSS15Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Safari/537.36", 
+  "type": "tablet"
+}

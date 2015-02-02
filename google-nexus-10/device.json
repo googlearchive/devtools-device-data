@@ -1,0 +1,22 @@
+{
+  "show-by-default": false, 
+  "modes": [], 
+  "title": "Google Nexus 10", 
+  "screen": {
+    "horizontal": {
+      "width": 800, 
+      "height": 1280
+    }, 
+    "device-pixel-ratio": 2, 
+    "vertical": {
+      "width": 1280, 
+      "height": 800
+    }
+  }, 
+  "capabilities": [
+    "touch", 
+    "mobile"
+  ], 
+  "user-agent": "Mozilla/5.0 (Linux; Android 4.3; Nexus 10 Build/JSS15Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Safari/537.36", 
+  "type": "tablet"
+}

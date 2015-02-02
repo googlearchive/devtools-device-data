@@ -1,0 +1,22 @@
+{
+  "show-by-default": false, 
+  "modes": [], 
+  "title": "LG Optimus 2X, Optimus 3D, Optimus Black", 
+  "screen": {
+    "horizontal": {
+      "width": 533, 
+      "height": 320
+    }, 
+    "device-pixel-ratio": 1.5, 
+    "vertical": {
+      "width": 320, 
+      "height": 533
+    }
+  }, 
+  "capabilities": [
+    "touch", 
+    "mobile"
+  ], 
+  "user-agent": "Mozilla/5.0 (Linux; U; Android 2.2; en-us; LG-P990/V08c Build/FRG83) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 MMS/LG-Android-MMS-V1.0/1.2", 
+  "type": "phone"
+}

@@ -1,0 +1,22 @@
+{
+  "show-by-default": false, 
+  "modes": [], 
+  "title": "Samsung Galaxy Note", 
+  "screen": {
+    "horizontal": {
+      "width": 640, 
+      "height": 400
+    }, 
+    "device-pixel-ratio": 2, 
+    "vertical": {
+      "width": 400, 
+      "height": 640
+    }
+  }, 
+  "capabilities": [
+    "touch", 
+    "mobile"
+  ], 
+  "user-agent": "Mozilla/5.0 (Linux; U; Android 2.3; en-us; SAMSUNG-SGH-I717 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1", 
+  "type": "phone"
+}

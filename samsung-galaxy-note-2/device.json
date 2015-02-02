@@ -1,0 +1,22 @@
+{
+  "show-by-default": false, 
+  "modes": [], 
+  "title": "Samsung Galaxy Note II", 
+  "screen": {
+    "horizontal": {
+      "width": 640, 
+      "height": 360
+    }, 
+    "device-pixel-ratio": 2, 
+    "vertical": {
+      "width": 360, 
+      "height": 640
+    }
+  }, 
+  "capabilities": [
+    "touch", 
+    "mobile"
+  ], 
+  "user-agent": "Mozilla/5.0 (Linux; U; Android 4.1; en-us; GT-N7100 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30", 
+  "type": "phone"
+}

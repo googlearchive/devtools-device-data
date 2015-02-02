@@ -1,0 +1,22 @@
+{
+  "show-by-default": false, 
+  "modes": [], 
+  "title": "Amazon Kindle Fire HDX 7", 
+  "screen": {
+    "horizontal": {
+      "width": 1200, 
+      "height": 1920
+    }, 
+    "device-pixel-ratio": 2, 
+    "vertical": {
+      "width": 1920, 
+      "height": 1200
+    }
+  }, 
+  "capabilities": [
+    "touch", 
+    "mobile"
+  ], 
+  "user-agent": "Mozilla/5.0 (Linux; U; en-us; KFTHWI Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.13 Safari/535.19 Silk-Accelerated=true", 
+  "type": "tablet"
+}

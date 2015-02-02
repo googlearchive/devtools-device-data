@@ -1,0 +1,22 @@
+{
+  "show-by-default": false, 
+  "modes": [], 
+  "title": "Sony Xperia Sola, U", 
+  "screen": {
+    "horizontal": {
+      "width": 854, 
+      "height": 480
+    }, 
+    "device-pixel-ratio": 1, 
+    "vertical": {
+      "width": 480, 
+      "height": 854
+    }
+  }, 
+  "capabilities": [
+    "touch", 
+    "mobile"
+  ], 
+  "user-agent": "Mozilla/5.0 (Linux; U; Android 2.3; en-us; SonyEricssonST25i Build/6.0.B.1.564) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1", 
+  "type": "phone"
+}

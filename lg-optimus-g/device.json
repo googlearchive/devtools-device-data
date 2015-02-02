@@ -1,0 +1,22 @@
+{
+  "show-by-default": false, 
+  "modes": [], 
+  "title": "LG Optimus G", 
+  "screen": {
+    "horizontal": {
+      "width": 640, 
+      "height": 384
+    }, 
+    "device-pixel-ratio": 2, 
+    "vertical": {
+      "width": 384, 
+      "height": 640
+    }
+  }, 
+  "capabilities": [
+    "touch", 
+    "mobile"
+  ], 
+  "user-agent": "Mozilla/5.0 (Linux; Android 4.0; LG-E975 Build/IMM76L) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19", 
+  "type": "phone"
+}

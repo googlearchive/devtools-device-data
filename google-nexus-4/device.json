@@ -1,0 +1,22 @@
+{
+  "show-by-default": false, 
+  "modes": [], 
+  "title": "Google Nexus 4", 
+  "screen": {
+    "horizontal": {
+      "width": 640, 
+      "height": 384
+    }, 
+    "device-pixel-ratio": 2, 
+    "vertical": {
+      "width": 384, 
+      "height": 640
+    }
+  }, 
+  "capabilities": [
+    "touch", 
+    "mobile"
+  ], 
+  "user-agent": "Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.122 Mobile Safari/537.36", 
+  "type": "phone"
+}

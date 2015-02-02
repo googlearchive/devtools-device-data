@@ -1,0 +1,21 @@
+{
+  "show-by-default": false, 
+  "modes": [], 
+  "title": "Notebook with touch", 
+  "screen": {
+    "horizontal": {
+      "width": 950, 
+      "height": 1280
+    }, 
+    "device-pixel-ratio": 1, 
+    "vertical": {
+      "width": 1280, 
+      "height": 950
+    }
+  }, 
+  "capabilities": [
+    "touch"
+  ], 
+  "user-agent": "", 
+  "type": "notebook"
+}

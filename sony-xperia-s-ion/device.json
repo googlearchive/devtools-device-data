@@ -1,0 +1,22 @@
+{
+  "show-by-default": false, 
+  "modes": [], 
+  "title": "Sony Xperia S, Ion", 
+  "screen": {
+    "horizontal": {
+      "width": 640, 
+      "height": 360
+    }, 
+    "device-pixel-ratio": 2, 
+    "vertical": {
+      "width": 360, 
+      "height": 640
+    }
+  }, 
+  "capabilities": [
+    "touch", 
+    "mobile"
+  ], 
+  "user-agent": "Mozilla/5.0 (Linux; U; Android 4.0; en-us; LT28at Build/6.1.C.1.111) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30", 
+  "type": "phone"
+}

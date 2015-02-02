@@ -1,0 +1,22 @@
+{
+  "show-by-default": false, 
+  "modes": [], 
+  "title": "BlackBerry Passport", 
+  "screen": {
+    "horizontal": {
+      "width": 462, 
+      "height": 504
+    }, 
+    "device-pixel-ratio": 2.856250047683716, 
+    "vertical": {
+      "width": 504, 
+      "height": 462
+    }
+  }, 
+  "capabilities": [
+    "touch", 
+    "mobile"
+  ], 
+  "user-agent": "Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.35+ (KHTML, like Gecko) Version/10.3.0.1418 Mobile Safari/537.35+", 
+  "type": "phone"
+}

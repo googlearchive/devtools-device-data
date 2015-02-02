@@ -1,0 +1,22 @@
+{
+  "show-by-default": false, 
+  "modes": [], 
+  "title": "Motorola Xoom, Xyboard", 
+  "screen": {
+    "horizontal": {
+      "width": 800, 
+      "height": 1280
+    }, 
+    "device-pixel-ratio": 1, 
+    "vertical": {
+      "width": 1280, 
+      "height": 800
+    }
+  }, 
+  "capabilities": [
+    "touch", 
+    "mobile"
+  ], 
+  "user-agent": "Mozilla/5.0 (Linux; U; Android 3.0; en-us; Xoom Build/HRI39) AppleWebKit/525.10 (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2", 
+  "type": "tablet"
+}

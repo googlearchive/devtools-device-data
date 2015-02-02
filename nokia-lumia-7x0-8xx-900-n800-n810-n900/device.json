@@ -1,0 +1,22 @@
+{
+  "show-by-default": false, 
+  "modes": [], 
+  "title": "Nokia Lumia 7X0, Lumia 8XX, Lumia 900, N800, N810, N900", 
+  "screen": {
+    "horizontal": {
+      "width": 533, 
+      "height": 320
+    }, 
+    "device-pixel-ratio": 1.5, 
+    "vertical": {
+      "width": 320, 
+      "height": 533
+    }
+  }, 
+  "capabilities": [
+    "touch", 
+    "mobile"
+  ], 
+  "user-agent": "Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 820)", 
+  "type": "phone"
+}

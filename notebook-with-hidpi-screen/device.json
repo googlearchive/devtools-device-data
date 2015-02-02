@@ -1,0 +1,19 @@
+{
+  "show-by-default": false, 
+  "modes": [], 
+  "title": "Notebook with HiDPI screen", 
+  "screen": {
+    "horizontal": {
+      "width": 900, 
+      "height": 1440
+    }, 
+    "device-pixel-ratio": 2, 
+    "vertical": {
+      "width": 1440, 
+      "height": 900
+    }
+  }, 
+  "capabilities": [], 
+  "user-agent": "", 
+  "type": "notebook"
+}
