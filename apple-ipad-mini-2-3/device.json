@@ -1,0 +1,24 @@
+{
+  "show-by-default": false, 
+  "modes": [], 
+
+  "//": "iPad Mini (1st generation), iPad (1st generation), iPad 2 have same device characteristics",
+  "title": "Apple iPad Mini 2 / 3", 
+  "screen": {
+    "horizontal": {
+      "width": 768, 
+      "height": 1024
+    }, 
+    "device-pixel-ratio": 2, 
+    "vertical": {
+      "width": 1024, 
+      "height": 768
+    }
+  }, 
+  "capabilities": [
+    "touch", 
+    "mobile"
+  ], 
+  "user-agent": "Mozilla/5.0 (iPad; CPU OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/9537.53", 
+  "type": "tablet"
+}
