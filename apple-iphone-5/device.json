@@ -1,7 +1,10 @@
 {
   "show-by-default": false, 
   "modes": [], 
+
+  "//" : "iPhone 5, iPhone 5S, iPhone 5c have identical display & screen characteristics",
   "title": "Apple iPhone 5", 
+  
   "screen": {
     "horizontal": {
       "width": 568, 

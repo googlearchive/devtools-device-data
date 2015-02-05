@@ -1,7 +1,9 @@
 {
   "show-by-default": false, 
   "modes": [], 
-  "title": "Apple iPad 1 / 2 / iPad Mini", 
+
+  "//": "iPad (1st generation), iPad 2, iPad Mini (1st generation),  have same device characteristics",
+  "title": "Apple iPad Mini", 
   "screen": {
     "horizontal": {
       "width": 768, 

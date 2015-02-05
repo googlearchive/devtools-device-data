@@ -1,7 +1,10 @@
 {
   "show-by-default": false, 
   "modes": [], 
-  "title": "Apple iPad 3 / 4", 
+
+  "//": "iPad (3rd generation), iPad (4th generation), iPad Air, iPad Air 2 have same display",
+  "title": "Apple iPad", 
+  
   "screen": {
     "horizontal": {
       "width": 768, 
