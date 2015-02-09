@@ -1,0 +1,22 @@
+{
+  "show-by-default": true,
+  "modes": [],
+  "title": "Google Nexus 9",
+  "screen": {
+    "horizontal": {
+      "width": 768,
+      "height": 1024
+    },
+    "device-pixel-ratio": 2,
+    "vertical": {
+      "width": 1024,
+      "height": 768
+    }
+  },
+  "capabilities": [
+    "touch",
+    "mobile"
+  ],
+  "user-agent": "Mozilla/5.0 (Linux; Android 5.0; Nexus 9 Build/LRX21R) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Mobile Crosswalk/7.36.154.13 Safari/537.36",
+  "type": "tablet"
+}
