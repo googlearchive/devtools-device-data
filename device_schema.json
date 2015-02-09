@@ -1,0 +1,139 @@
+{
+  "type": "object",
+  "properties": {
+    "show-by-default": {
+      "type": "boolean"
+    },
+    "modes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "orientation": {
+            "enum": ["vertical", "horizontal"]
+          },
+          "images": {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/image"
+            }
+          },
+          "page-rect": {
+            "type": "object",
+            "properties": {
+              "left": {
+                "type": "number",
+                "minimum": 0
+              },
+              "top": {
+                "type": "number",
+                "minimum": 0
+              },
+              "width": {
+                "type": "number",
+                "minimum": 0
+              },
+              "height": {
+                "type": "number",
+                "minimum": 0
+              }
+            },
+            "required": ["left", "top", "width", "height"]
+          }
+        },
+        "required": ["title", "orientation", "images", "page-rect"]
+      }
+    },
+    "title": {
+      "type": "string"
+    },
+    "screen": {
+      "type": "object",
+      "properties": {
+        "horizontal": {
+          "$ref": "#/definitions/orientation"
+        },
+        "vertical": {
+          "$ref": "#/definitions/orientation"
+        },
+        "device-pixel-ratio": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        }
+      },
+      "required": ["device-pixel-ratio", "vertical", "horizontal"]
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "enum": ["mobile", "touch"]
+      }
+    },
+    "user-agent": {
+      "type": "string"
+    },
+    "type": {
+      "enum": ["phone", "tablet", "notebook", "desktop", "unknown"]
+    }
+  },
+  "required": ["title", "type", "screen", "user-agent", "show-by-default", "capabilities"],
+  "definitions": {
+    "image": {
+      "type": "object",
+      "properties": {
+        "src": {
+          "type": "string"
+        },
+        "scale": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": ["src", "scale"]
+    },
+    "orientation": {
+      "type": "object",
+      "properties": {
+        "width": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10000
+        },
+        "height": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10000
+        },
+        "outline": {
+          "type": "object",
+          "properties": {
+            "images": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/image"
+              }
+            },
+            "insets": {
+              "type": "object",
+              "properties": {
+                "left": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "top": {
+                  "type": "number",
+                  "minimum": 0
+                }
+              }
+            }
+          }
+        }
+      },
+      "required": ["width", "height"]
+    }
+  }
+}
