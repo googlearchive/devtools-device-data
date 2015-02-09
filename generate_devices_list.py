@@ -10,6 +10,8 @@ try:
 except ImportError:
     import simplejson as json
 
+from jsonschema import validate
+
 POSSIBLE_TYPES = ["phone", "tablet", "notebook", "desktop", "unknown"]
 
 def load_and_parse_json(file_name):
@@ -84,6 +86,8 @@ def parse_modes(modes, file_name, prefix, rebase_path):
 
 def parse_device_json(file_name, rebase_path):
   json = load_and_parse_json(file_name)
+  device_file_schema = load_and_parse_json("device_schema.json")
+  validate(json, device_file_schema)
 
   if not ("title" in json) or not isinstance(json["title"], basestring):
     raise_type_error(file_name, "title", "string")
