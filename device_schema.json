@@ -25,26 +25,26 @@
             "type": "object",
             "properties": {
               "left": {
-                "type": "number",
+                "type": "integer",
                 "minimum": 0
               },
               "top": {
-                "type": "number",
+                "type": "integer",
                 "minimum": 0
               },
               "width": {
-                "type": "number",
+                "type": "integer",
                 "minimum": 0
               },
               "height": {
-                "type": "number",
+                "type": "integer",
                 "minimum": 0
               }
             },
             "required": ["left", "top", "width", "height"]
           }
         },
-        "required": ["title", "orientation", "images", "page-rect"]
+        "required": ["title", "orientation"]
       }
     },
     "title": {
@@ -80,7 +80,7 @@
       "enum": ["phone", "tablet", "notebook", "desktop", "unknown"]
     }
   },
-  "required": ["title", "type", "screen", "user-agent", "show-by-default", "capabilities"],
+  "required": ["title", "type", "screen", "user-agent", "show-by-default"],
   "definitions": {
     "image": {
       "type": "object",
@@ -99,12 +99,12 @@
       "type": "object",
       "properties": {
         "width": {
-          "type": "number",
+          "type": "integer",
           "minimum": 0,
           "maximum": 10000
         },
         "height": {
-          "type": "number",
+          "type": "integer",
           "minimum": 0,
           "maximum": 10000
         },
