@@ -130,7 +130,8 @@
                 }
               }
             }
-          }
+          },
+          "required": ["images", "insets"]
         }
       },
       "required": ["width", "height"]
