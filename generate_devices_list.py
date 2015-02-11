@@ -9,7 +9,7 @@ try:
 except ImportError:
     import simplejson as json
 
-from jsonschema import validate
+import jsonschema
 
 def load_and_parse_json(file_name):
   try:
@@ -23,31 +23,23 @@ def raise_type_error(file_name, key, expected_type):
   raise Exception('ERROR: "' + key + '" must be of type "' + expected_type + '" (' + file_name + ')')
 
 def parse_and_rebase_images(images, rebase_path):
-  for (index, entry) in enumerate(images):
+  for entry in images:
     entry["src"] = os.path.join(rebase_path, entry["src"])
 
 def parse_orientation(d, file_name, prefix):
-  if abs(d["width"]) != d["width"]:
-    raise_type_error(file_name, prefix + "/width", "number")
-
-  if abs(d["height"]) != d["height"]:
-    raise_type_error(file_name, prefix + "/height", "number")
-
   if not ("outline" in d):
     return
 
-  outline = d["outline"]
-
-  parse_and_rebase_images(outline["images"], file_name)
+  parse_and_rebase_images(d["outline"]["images"], file_name)
 
 def parse_modes(modes, file_name):
-  for (index, mode) in enumerate(modes):
+  for mode in modes:
     parse_and_rebase_images(mode["images"], file_name)
 
 def parse_device_json(file_name, rebase_path):
   json = load_and_parse_json(file_name)
   device_file_schema = load_and_parse_json("device_schema.json")
-  validate(json, device_file_schema)
+  jsonschema.validate(json, device_file_schema)
 
   screen = json["screen"]
 
