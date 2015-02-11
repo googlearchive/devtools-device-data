@@ -26,15 +26,15 @@ def parse_and_rebase_images(images, rebase_path):
   for entry in images:
     entry["src"] = os.path.join(rebase_path, entry["src"])
 
-def parse_orientation(d, file_name, prefix):
+def parse_orientation(d, rebase_path):
   if not ("outline" in d):
     return
 
-  parse_and_rebase_images(d["outline"]["images"], file_name)
+  parse_and_rebase_images(d["outline"]["images"], rebase_path)
 
-def parse_modes(modes, file_name):
+def parse_modes(modes, rebase_path):
   for mode in modes:
-    parse_and_rebase_images(mode["images"], file_name)
+    parse_and_rebase_images(mode["images"], rebase_path)
 
 def parse_device_json(file_name, rebase_path):
   json = load_and_parse_json(file_name)
@@ -44,10 +44,10 @@ def parse_device_json(file_name, rebase_path):
   screen = json["screen"]
 
   for orientation in ["vertical", "horizontal"]:
-    parse_orientation(screen[orientation], file_name, "screen/" + orientation)
+    parse_orientation(screen[orientation], rebase_path)
 
   if "modes" in json:
-    parse_modes(json["modes"], file_name)
+    parse_modes(json["modes"], rebase_path)
 
   return json
 
