@@ -19,10 +19,7 @@ def load_and_parse_json(file_name):
     print 'ERROR: Failed to parse %s' % file_name
     raise
 
-def raise_type_error(file_name, key, expected_type):
-  raise Exception('ERROR: "' + key + '" must be of type "' + expected_type + '" (' + file_name + ')')
-
-def parse_and_rebase_images(images, rebase_path):
+def rebase_images(images, rebase_path):
   for entry in images:
     entry["src"] = os.path.join(rebase_path, entry["src"])
 
@@ -30,11 +27,11 @@ def parse_orientation(d, rebase_path):
   if not ("outline" in d):
     return
 
-  parse_and_rebase_images(d["outline"]["images"], rebase_path)
+  rebase_images(d["outline"]["images"], rebase_path)
 
 def parse_modes(modes, rebase_path):
   for mode in modes:
-    parse_and_rebase_images(mode["images"], rebase_path)
+    rebase_images(mode["images"], rebase_path)
 
 def parse_device_json(file_name, rebase_path):
   json = load_and_parse_json(file_name)
