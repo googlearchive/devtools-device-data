@@ -56,7 +56,7 @@ The following code sample is a minimum viable `device.json`:
 {
     "title": "My Awesome Device",
     "type": "notebook",
-    "screen": 
+    "screen": {
         "horizontal": {
             "width": 1024, 
             "height": 968
@@ -65,7 +65,8 @@ The following code sample is a minimum viable `device.json`:
         "vertical": {
             "width": 968, 
             "height": 1024
-        },
+        }
+    },
     "user-agent": "Latest UA for given device",
     "show-by-default": false
 }
