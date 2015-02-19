@@ -2,7 +2,15 @@
 
 ## Requirements
 
-You only need to have python 2.7 installed to generate and validate devices.
+You need to have Python 2.7 installed with jsonschema.
+The easy way to install the jsonchema package is through `pip`.
+This is achieved with the following command from the repository root:
+
+```sh
+pip install -r 'requirements.txt'
+```
+
+> Note: You may need to run the pip installation as root using `sudo` or similar methods.
 
 ## Which branch?
 
