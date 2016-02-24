@@ -528,11 +528,47 @@
         "type": "emulated-device",
         "device": {
             "show-by-default": false,
+            "title": "Microsoft Lumia 550",
+            "screen": {
+                "horizontal": {
+                    "width": 640,
+                    "height": 360
+                },
+                "device-pixel-ratio": 2,
+                "vertical": {
+                    "width": 640,
+                    "height": 360
+                }
+            },
+            "capabilities": [
+                "touch",
+                "mobile"
+            ],
+            "user-agent": "Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 550) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/14.14263",
+            "type": "phone",
+            "modes": [
+                {
+                    "title": "default",
+                    "orientation": "vertical",
+                    "insets": { "left": 0, "top": 0, "right": 0, "bottom": 0 }
+                },
+                {
+                    "title": "default",
+                    "orientation": "horizontal",
+                    "insets": { "left": 0, "top": 0, "right": 0, "bottom": 0 }
+                }
+            ]
+        }
+    },
+    {
+        "type": "emulated-device",
+        "device": {
+            "show-by-default": false,
             "title": "Microsoft Lumia 950",
             "screen": {
                 "horizontal": {
                     "width": 640,
-                    "height": 360 
+                    "height": 360
                 },
                 "device-pixel-ratio": 4,
                 "vertical": {
@@ -544,7 +580,7 @@
                 "touch",
                 "mobile"
             ],
-            "user-agent": "Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 950) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/13.10587",
+            "user-agent": "Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 950) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/14.14263",
             "type": "phone",
             "modes": [
                 {
