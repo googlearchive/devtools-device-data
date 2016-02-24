@@ -531,13 +531,13 @@
             "title": "Microsoft Lumia 550",
             "screen": {
                 "horizontal": {
-                    "width": 1280,
-                    "height": 720
+                    "width": 640,
+                    "height": 360
                 },
                 "device-pixel-ratio": 2,
                 "vertical": {
-                    "width": 1280,
-                    "height": 720
+                    "width": 640,
+                    "height": 360
                 }
             },
             "capabilities": [
@@ -567,13 +567,13 @@
             "title": "Microsoft Lumia 950",
             "screen": {
                 "horizontal": {
-                    "width": 2560,
-                    "height": 1440
+                    "width": 640,
+                    "height": 360
                 },
                 "device-pixel-ratio": 4,
                 "vertical": {
-                    "width": 1440,
-                    "height": 2560
+                    "width": 360,
+                    "height": 640
                 }
             },
             "capabilities": [
