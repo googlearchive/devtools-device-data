@@ -295,12 +295,12 @@
             "screen": {
                 "device-pixel-ratio": 2.625,
                 "vertical": {
-                    "width": 411,
-                    "height": 731
+                    "width": 412,
+                    "height": 732
                 },
                 "horizontal": {
-                    "width": 731,
-                    "height": 411
+                    "width": 732,
+                    "height": 412
                 }
             },
             "modes": [
@@ -387,13 +387,13 @@
             "title": "Nexus 6P",
             "screen": {
                 "horizontal": {
-                    "width": 773,
-                    "height": 435
+                    "width": 732,
+                    "height": 412
                 },
-                "device-pixel-ratio": 3.3,
+                "device-pixel-ratio": 3.5,
                 "vertical": {
-                    "width": 435,
-                    "height": 773
+                    "width": 412,
+                    "height": 732
                 }
             },
             "capabilities": [
