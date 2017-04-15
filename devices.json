@@ -676,13 +676,13 @@
             "title": "Kindle Fire HDX",
             "screen": {
                 "horizontal": {
-                    "width": 2560,
-                    "height": 1600
+                    "width": 1280,
+                    "height": 800
                 },
                 "device-pixel-ratio": 2,
                 "vertical": {
-                    "width": 1600,
-                    "height": 2560
+                    "width": 800,
+                    "height": 1280
                 }
             },
             "capabilities": [
